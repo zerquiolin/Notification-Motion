@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+@mixin flex(
+  $align: flex-start,
+  $justify: flex-start,
+  $direction: row,
+  $gap: 0px,
+  $wrap: nowrap
+) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  gap: $gap;
+  flex-wrap: $wrap;
+}

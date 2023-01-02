@@ -1,0 +1,14 @@
+$notification_success: green;
+$notification_shadow_success: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+$notification_info: blue;
+$notification_shadow_info: 0 0 0 1px rgba(black, 0.1);
+
+$notification_warning: yellow;
+$notification_shadow_warning: 0 0 0 1px rgba(black, 0.1);
+
+$notification_error: red;
+$notification_shadow_error: 0 0 0 1px rgba(black, 0.1),
+  0 1px 3px rgba(black, 0.2);
+
+$border_small: 5px;
